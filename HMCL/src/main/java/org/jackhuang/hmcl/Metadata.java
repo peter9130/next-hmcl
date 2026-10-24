@@ -54,10 +54,12 @@ public final class Metadata {
     public static final String MANUAL_UPDATE_URL = "https://github.com/HMCL-dev/HMCL/releases";
 
     public static final String DOCS_URL = "https://docs.hmcl.net";
-    public static final String CONTACT_URL = DOCS_URL + "/help.html";
+    /// Source repository for this maintained launcher distribution.
+    public static final String PROJECT_URL = "https://github.com/peter9130/next-hmcl";
+    /// Contact address used by feedback, help, and crash-report actions.
+    public static final String CONTACT_URL = "https://t.me/next_hmcl";
     public static final String CHANGELOG_URL = DOCS_URL + "/changelog/";
     public static final String EULA_URL = DOCS_URL + "/eula/hmcl.html";
-    public static final String GROUPS_URL = "https://www.bilibili.com/opus/905435541874409529";
 
     public static final String BUILD_CHANNEL = JarUtils.getAttribute("hmcl.version.type", "nightly");
     public static final String GITHUB_SHA = JarUtils.getAttribute("hmcl.version.hash", null);

@@ -38,10 +38,13 @@ import java.io.InputStream;
 import static org.jackhuang.hmcl.util.i18n.I18n.i18n;
 import static org.jackhuang.hmcl.util.logging.Logger.LOG;
 
+/// Displays launcher, maintainer, acknowledgement, dependency, and legal information.
 public final class AboutPage extends SpinnerPane {
 
+    /// Retains listeners registered for dynamically loaded list icons.
     private final WeakListenerHolder holder = new WeakListenerHolder();
 
+    /// Builds the about page and links this distribution to its maintainer and source repository.
     public AboutPage() {
         VBox content = new VBox();
         content.getStyleClass().add("spinner-pane-content");
@@ -52,7 +55,7 @@ public final class AboutPage extends SpinnerPane {
 
         ComponentList about = new ComponentList();
         {
-            var launcher = LineButton.createExternalLinkButton(Metadata.PUBLISH_URL);
+            var launcher = LineButton.createExternalLinkButton(Metadata.PROJECT_URL);
             launcher.setLargeTitle(true);
             launcher.setLeading(FXUtils.newBuiltinImage("/assets/img/icon.png"));
             launcher.setTitle("Hello Minecraft! Launcher");
@@ -64,7 +67,13 @@ public final class AboutPage extends SpinnerPane {
             author.setTitle("huanghongxun");
             author.setSubtitle(i18n("about.author.statement"));
 
-            about.getContent().setAll(launcher, author);
+            var maintainer = LineButton.createExternalLinkButton(Metadata.CONTACT_URL);
+            maintainer.setLargeTitle(true);
+            maintainer.setLeading(FXUtils.newBuiltinImage("/assets/img/icon.png"));
+            maintainer.setTitle("大量比比 (peter9130)");
+            maintainer.setSubtitle("next-hmcl · t.me/next_hmcl");
+
+            about.getContent().setAll(launcher, author, maintainer);
         }
 
         ComponentList thanks = loadIconedTwoLineList("/assets/about/thanks.json");
@@ -83,10 +92,10 @@ public final class AboutPage extends SpinnerPane {
             claim.setTitle(i18n("about.claim"));
             claim.setSubtitle(i18n("about.claim.statement"));
 
-            var openSource = LineButton.createExternalLinkButton("https://github.com/HMCL-dev/HMCL");
+            var openSource = LineButton.createExternalLinkButton(Metadata.PROJECT_URL);
             openSource.setLargeTitle(true);
             openSource.setTitle(i18n("about.open_source"));
-            openSource.setSubtitle(i18n("about.open_source.statement"));
+            openSource.setSubtitle("GPL v3 (" + Metadata.PROJECT_URL + ")");
 
             legal.getContent().setAll(copyright, claim, openSource);
         }
