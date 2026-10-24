@@ -1,23 +1,18 @@
 <!-- #BEGIN COPY -->
 <!-- #PROPERTY NAME=TITLE -->
 <div align="center">
-    <img src="/HMCL/src/main/resources/assets/img/icon@8x.png" alt="HMCL Logo" width="64"/>
+    <img src="/HMCL/src/main/resources/assets/img/icon@8x.png" alt="Next HMCL Logo" width="64"/>
 </div>
 
-<h1 align="center">Hello Minecraft! Launcher</h1>
+<h1 align="center">Next HMCL</h1>
 <!-- #END COPY -->
 
 <!-- #BEGIN COPY -->
 <!-- #PROPERTY NAME=BADGES -->
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-repo-blue?style=flat-square&logo=github)](https://github.com/HMCL-dev/HMCL)
-[![CNB](https://img.shields.io/badge/CNB-mirror-ff6200?style=flat-square&logo=cloudnativebuild)](https://cnb.cool/HMCL-dev/HMCL)
-[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?style=flat-square&logo=gitee)](https://gitee.com/huanghongxun/HMCL)
-
-[![QQ Group](https://img.shields.io/badge/QQ-gray?style=flat-square&logo=qq&logoColor=ffffff)](https://docs.hmcl.net/groups.html)
-[![Discord](https://img.shields.io/badge/Discord-gray?style=flat-square&logo=discord)](https://discord.gg/jVvC7HfM6U)
-[![Bilibili](https://img.shields.io/badge/Bilibili-gray?style=flat-square&logo=bilibili)](https://space.bilibili.com/20314891)
+[![GitHub](https://img.shields.io/badge/GitHub-next--hmcl-blue?style=flat-square&logo=github)](https://github.com/peter9130/next-hmcl)
+[![Telegram](https://img.shields.io/badge/Telegram-next__hmcl-26A5E4?style=flat-square&logo=telegram)](https://t.me/next_hmcl)
 
 </div>
 <!-- #END COPY -->
@@ -30,19 +25,26 @@ English ([Standard](README.md), [uʍoᗡ ǝpᴉsd∩](README_en_Qabs.md)) | **�
 
 ## 简介
 
-HMCL 是一款开源、跨平台的 Minecraft 启动器，支持模组管理、游戏自定义、游戏自动安装 (Forge、NeoForge、Cleanroom、Fabric、Legacy Fabric、Quilt、LiteLoader 和 OptiFine)、整合包创建、界面自定义等功能。
+Next HMCL 是以开源 HMCL 为基础、由大量比比（peter9130）维护的第三方修改版。它是一款跨平台的 Minecraft 启动器，支持模组管理、游戏自定义、游戏自动安装（Forge、NeoForge、Cleanroom、Fabric、Legacy Fabric、Quilt、LiteLoader 和 OptiFine）、整合包创建、界面自定义等功能。
 
-HMCL 有着强大的跨平台能力。它不仅支持 Windows、Linux、macOS、FreeBSD 等常见的操作系统，同时也支持 x86、ARM、RISC-V、MIPS、LoongArch 等不同的 CPU 架构。你可以使用 HMCL 在不同平台上轻松地游玩 Minecraft。
+Next HMCL 支持 Windows、Linux、macOS、FreeBSD 等操作系统，以及 x86、ARM、RISC-V、MIPS、LoongArch 等 CPU 架构。不同平台及游戏版本的实际支持情况请参阅 [平台支持表](PLATFORM_zh_Hans.md)。
 
-如果你想要了解 HMCL 对不同平台的支持程度，请参见 [此表格](PLATFORM_zh_Hans.md)。
+> **非官方声明：Next HMCL 不是官方 Minecraft 产品，未获 Mojang 或 Microsoft 批准，亦不与其存在关联。本项目同时不是 HMCL 官方版本。**
+>
+> **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
+
+## 家长与监护人须知
+
+- 本仓库提供启动器，**不包含 Minecraft 游戏本体**。请确保以合法方式取得和使用游戏及相关内容。
+- 建议未成年人在监护人知情和适当陪同下使用，尤其是在联机、下载模组或整合包、上传皮肤以及分享日志时。
+- 模组、整合包、服务器和玩家聊天主要来自第三方，并非全部由本项目维护者审核。第三方内容可能不适合某些年龄，也可能存在安全风险，请注意甄别。
+- 启动器会因更新检查、游戏下载、账户登录及模组下载等功能连接 HMCL 更新服务、Microsoft、Mojang、模组平台或下载镜像。相关服务商可能按其隐私政策处理网络地址及请求信息。
+- 启动器不会自动上传崩溃报告。用户主动分享日志或截图前，请检查并遮盖账号、访问令牌、文件路径及其他个人资料。
+- 如需反馈不当内容或寻求协助，请通过 [GitHub Issues](https://github.com/peter9130/next-hmcl/issues) 或 [Telegram](https://t.me/next_hmcl) 联系维护者。请勿在公开页面提交密码、访问令牌或其他敏感信息。
 
 ## 下载
 
-你可以从这些渠道下载 HMCL：
-
-- [HMCL 官方网站](https://hmcl.huangyuhui.net/download)
-- [GitHub Release](https://github.com/HMCL-dev/HMCL/releases)
-- [CNB Release](https://cnb.cool/HMCL-dev/HMCL/-/releases)
+请从本项目的 [GitHub Releases](https://github.com/peter9130/next-hmcl/releases) 下载 Next HMCL。Windows 提供 `.exe` 文件，macOS 提供需要 Java 17 或更高版本的 `.jar` 文件。
 
 ## 参与贡献
 
