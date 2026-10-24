@@ -1,17 +1,16 @@
 <!-- #BEGIN COPY -->
 <!-- #PROPERTY NAME=TITLE -->
 <div align="center">
-    <img src="/HMCL/src/main/resources/assets/img/icon@8x.png" alt="Next HMCL Logo" width="64"/>
+    <img src="/HMCL/src/main/resources/assets/img/icon@8x.png" alt="next-hmcl Logo" width="64"/>
 </div>
 
-<h1 align="center">Next HMCL</h1>
+<h1 align="center">next-hmcl</h1>
 <!-- #END COPY -->
 
 <!-- #BEGIN COPY -->
 <!-- #PROPERTY NAME=BADGES -->
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-next--hmcl-blue?style=flat-square&logo=github)](https://github.com/peter9130/next-hmcl)
 [![Telegram](https://img.shields.io/badge/Telegram-next__hmcl-26A5E4?style=flat-square&logo=telegram)](https://t.me/next_hmcl)
 
 </div>
@@ -25,11 +24,11 @@ English ([Standard](README.md), [uʍoᗡ ǝpᴉsd∩](README_en_Qabs.md)) | **�
 
 ## 简介
 
-Next HMCL 是以开源 HMCL 为基础、由大量比比（peter9130）维护的第三方修改版。它是一款跨平台的 Minecraft 启动器，支持模组管理、游戏自定义、游戏自动安装（Forge、NeoForge、Cleanroom、Fabric、Legacy Fabric、Quilt、LiteLoader 和 OptiFine）、整合包创建、界面自定义等功能。
+next-hmcl 是以开源 HMCL 为基础、由大量比比（peter9130）维护的第三方修改版。它是一款跨平台的 Minecraft 启动器，支持模组管理、游戏自定义、游戏自动安装（Forge、NeoForge、Cleanroom、Fabric、Legacy Fabric、Quilt、LiteLoader 和 OptiFine）、整合包创建、界面自定义等功能。
 
-Next HMCL 支持 Windows、Linux、macOS、FreeBSD 等操作系统，以及 x86、ARM、RISC-V、MIPS、LoongArch 等 CPU 架构。不同平台及游戏版本的实际支持情况请参阅 [平台支持表](PLATFORM_zh_Hans.md)。
+next-hmcl 支持 Windows、Linux、macOS、FreeBSD 等操作系统，以及 x86、ARM、RISC-V、MIPS、LoongArch 等 CPU 架构。不同平台及游戏版本的实际支持情况请参阅 [平台支持表](PLATFORM_zh_Hans.md)。
 
-> **非官方声明：Next HMCL 不是官方 Minecraft 产品，未获 Mojang 或 Microsoft 批准，亦不与其存在关联。本项目同时不是 HMCL 官方版本。**
+> **非官方声明：next-hmcl 不是官方 Minecraft 产品，未获 Mojang 或 Microsoft 批准，亦不与其存在关联。本项目同时不是 HMCL 官方版本。**
 >
 > **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
 
@@ -44,7 +43,7 @@ Next HMCL 支持 Windows、Linux、macOS、FreeBSD 等操作系统，以及 x86�
 
 ## 下载
 
-请从本项目的 [GitHub Releases](https://github.com/peter9130/next-hmcl/releases) 下载 Next HMCL。Windows 提供 `.exe` 文件，macOS 提供需要 Java 17 或更高版本的 `.jar` 文件。
+请从本项目的 [GitHub Releases](https://github.com/peter9130/next-hmcl/releases) 下载 next-hmcl。Windows 提供 `.exe` 文件，macOS 提供需要 Java 17 或更高版本的 `.jar` 文件。
 
 ## 参与贡献
 

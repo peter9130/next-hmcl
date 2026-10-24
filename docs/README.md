@@ -1,17 +1,16 @@
 <!-- #BEGIN BLOCK -->
 <!-- #PROPERTY NAME=TITLE -->
 <div align="center">
-    <img src="/HMCL/src/main/resources/assets/img/icon@8x.png" alt="Next HMCL Logo" width="64"/>
+    <img src="/HMCL/src/main/resources/assets/img/icon@8x.png" alt="next-hmcl Logo" width="64"/>
 </div>
 
-<h1 align="center">Next HMCL</h1>
+<h1 align="center">next-hmcl</h1>
 <!-- #END BLOCK -->
 
 <!-- #BEGIN BLOCK -->
 <!-- #PROPERTY NAME=BADGES -->
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-next--hmcl-blue?style=flat-square&logo=github)](https://github.com/peter9130/next-hmcl)
 [![Telegram](https://img.shields.io/badge/Telegram-next__hmcl-26A5E4?style=flat-square&logo=telegram)](https://t.me/next_hmcl)
 
 </div>
@@ -25,13 +24,13 @@
 
 ## Introduction
 
-Next HMCL is an independently maintained third-party distribution based on the open-source HMCL project. It is a cross-platform Minecraft launcher supporting mod management, game customization, mod loader installation (Forge, NeoForge, Cleanroom, Fabric, Legacy Fabric, Quilt, LiteLoader, and OptiFine), modpack creation, UI customization, and more.
+next-hmcl is an independently maintained third-party distribution based on the open-source HMCL project. It is a cross-platform Minecraft launcher supporting mod management, game customization, mod loader installation (Forge, NeoForge, Cleanroom, Fabric, Legacy Fabric, Quilt, LiteLoader, and OptiFine), modpack creation, UI customization, and more.
 
-Next HMCL supports Windows, Linux, macOS, FreeBSD, and CPU architectures including x86, ARM, RISC-V, MIPS, and LoongArch. See the [platform support table](PLATFORM.md) for actual platform and game-version coverage.
+next-hmcl supports Windows, Linux, macOS, FreeBSD, and CPU architectures including x86, ARM, RISC-V, MIPS, and LoongArch. See the [platform support table](PLATFORM.md) for actual platform and game-version coverage.
 
 > **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
 >
-> Next HMCL is not an official HMCL release. It is maintained by 大量比比 (peter9130).
+> next-hmcl is not an official HMCL release. It is maintained by 大量比比 (peter9130).
 
 ## Guide for Parents and Guardians
 
@@ -44,7 +43,7 @@ Next HMCL supports Windows, Linux, macOS, FreeBSD, and CPU architectures includi
 
 ## Download
 
-Download Next HMCL from this project's [GitHub Releases](https://github.com/peter9130/next-hmcl/releases). Windows is supplied as an `.exe`; macOS is supplied as a `.jar` requiring Java 17 or later.
+Download next-hmcl from this project's [GitHub Releases](https://github.com/peter9130/next-hmcl/releases). Windows is supplied as an `.exe`; macOS is supplied as a `.jar` requiring Java 17 or later.
 
 ## Contributing
 
